@@ -3,35 +3,35 @@
   "outbounds": [
     {
       "type": "hysteria2",
-      "tag": "🏳️ ShatakVPN 199358",
-      "server": "130.61.50.75",
-      "server_port": 6443,
-      "password": "zhangyang",
+      "tag": "🏳️ ShatakVPN 717010",
+      "server": "144.31.148.87",
+      "server_port": 443,
+      "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
       "tls": {
         "enabled": true,
-        "server_name": "130.61.50.75",
+        "server_name": "replay.wwwinternetvideo.click",
         "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 748964",
-      "server": "207.241.172.254",
-      "server_port": 4777,
-      "uuid": "12a9194f-16fc-4fb9-a6eb-441c076b70e2",
-      "flow": "xtls-rprx-vision",
+      "type": "vmess",
+      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
+      "server": "v33.hdacd.com",
+      "server_port": 30833,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 2
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 955210",
+      "server": "5.83.129.11",
+      "server_port": 443,
+      "password": "umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx",
       "tls": {
         "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo",
-          "short_id": "01115788253bc845"
-        }
+        "server_name": "germany1.h2corp.local",
+        "insecure": true
       }
     },
     {

@@ -3,7 +3,7 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: '[openproxylist.com] LV 15401737'
+- name: 🏳️ ShatakVPN 168768
   network: ws
   port: 2096
   server: 89.36.161.222
@@ -11,12 +11,13 @@ proxies:
   udp: true
   uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
   ws-opts:
-    headers: {}
+    headers:
+      Host: laoye.in-gect.fun
     path: /
 proxy-groups:
 - name: PROXY
   proxies:
-  - '[openproxylist.com] LV 15401737'
+  - 🏳️ ShatakVPN 168768
   type: select
 rules:
 - MATCH,PROXY

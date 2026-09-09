@@ -3,14 +3,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "[openproxylist.com] LV 15401737",
+      "tag": "🏳️ ShatakVPN 168768",
       "server": "89.36.161.222",
       "server_port": 2096,
       "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
       "transport": {
         "type": "ws",
         "path": "/",
-        "headers": {}
+        "headers": {
+          "Host": "laoye.in-gect.fun"
+        }
       }
     },
     {

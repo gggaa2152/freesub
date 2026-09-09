@@ -1,0 +1,36 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: ✅90@oneclickvpnkeys
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.177
+  skip-cert-verify: false
+  sni: hopp-romania-new.roxa.org
+  type: hysteria2
+- name: hysteria2-1005907717
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.176
+  skip-cert-verify: false
+  sni: hopp-romania-new.roxa.org
+  type: hysteria2
+- name: 📀49@oneclickvpnkeys
+  password: 4fb82973-a7f1-4fc2-9958-cb21f5162f06
+  port: 443
+  server: rou0001ntrhy01.tcp-reset-club.net
+  skip-cert-verify: false
+  sni: rou0001ntrhy01.tcp-reset-club.net
+  type: hysteria2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - ✅90@oneclickvpnkeys
+  - hysteria2-1005907717
+  - 📀49@oneclickvpnkeys
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

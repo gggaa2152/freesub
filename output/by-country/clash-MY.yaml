@@ -3,20 +3,23 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: vless-1046909550
-  network: ws
-  port: 2087
-  server: 38.60.168.98
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 193377
+  port: 21874
+  reality-opts:
+    public-key: 75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs
+    short-id: 42e853a5559e1032
+  server: 43.217.16.8
+  servername: www.amd.com
+  tls: true
   type: vless
   udp: true
-  uuid: 8a346b7c-5b95-4845-affa-0e5d9929e9ae
-  ws-opts:
-    headers: {}
-    path: /db55c40bbc75
+  uuid: 85dd8227-0f12-4826-a712-6313211774b5
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1046909550
+  - 🏳️ ShatakVPN 193377
   type: select
 rules:
 - MATCH,PROXY

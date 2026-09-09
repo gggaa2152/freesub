@@ -3,31 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 786908",
-      "server": "51.161.199.124",
-      "server_port": 443,
-      "uuid": "643cdd4d-8731-440b-9e46-9496f593aa27",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "suetinklerartglass.co.uk",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
-          "short_id": "0f4d3210977f51a5"
-        }
+      "tag": "vless-1151376484",
+      "server": "103.75.119.126",
+      "server_port": 2087,
+      "uuid": "731f177e-00aa-480c-b935-661456139a32",
+      "transport": {
+        "type": "ws",
+        "path": "/7586c69d3dc9",
+        "headers": {}
       }
     },
     {
       "type": "vless",
-      "tag": "vless-970879989",
+      "tag": "vless-1048775501",
       "server": "51.161.199.124",
       "server_port": 443,
-      "uuid": "cb90334f-8b30-4333-b82d-8f9e2fa1a6dd",
+      "uuid": "da222922-fbd5-4a7f-9c8a-9ba0cc49b527",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -45,7 +36,28 @@
     },
     {
       "type": "vless",
-      "tag": "vless-986428449",
+      "tag": "vless-1115117290",
+      "server": "51.161.199.124",
+      "server_port": 443,
+      "uuid": "8c06ed32-28f1-4480-8a40-a2549d960138",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "suetinklerartglass.co.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
+          "short_id": "0f4d3210977f51a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1109323694",
       "server": "51.161.199.124",
       "server_port": 443,
       "uuid": "a407c73c-acca-4530-97d9-13f99768b6bf",
@@ -66,10 +78,10 @@
     },
     {
       "type": "vless",
-      "tag": "vless-1065909339",
+      "tag": "vless-1131524310",
       "server": "51.161.199.124",
       "server_port": 443,
-      "uuid": "aeeff70d-5bf4-48dc-9120-0593eda94cdb",
+      "uuid": "cba066ac-45d9-4bbc-bcbe-672a9faed36b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -87,10 +99,10 @@
     },
     {
       "type": "vless",
-      "tag": "vless-1007755590",
+      "tag": "vless-1019921589",
       "server": "51.161.199.124",
       "server_port": 443,
-      "uuid": "61e7c286-6b7d-4667-955c-430d89979c4d",
+      "uuid": "a014310a-96ad-4b54-8acb-a835a3850552",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -98,6 +110,27 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0",
+          "short_id": "0f4d3210977f51a5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1117781463",
+      "server": "51.161.199.124",
+      "server_port": 443,
+      "uuid": "3622f803-8a8e-407d-9fff-249a2e84b06e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "suetinklerartglass.co.uk",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
