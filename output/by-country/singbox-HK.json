@@ -3,16 +3,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 995998",
-      "server": "58.153.148.126",
+      "tag": "vless-1219569900",
+      "server": "203.218.231.156",
       "server_port": 443,
-      "uuid": "5dc6fa05-a601-aba6-7761-ecde22d2b0fc",
+      "uuid": "fbf91120-50ba-11ef-a203-f23c91cfbbc9",
       "tls": {
         "enabled": true,
         "server_name": "updates.cdn-apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -22,7 +22,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-860560565",
+      "tag": "vless-864139076",
       "server": "162.128.157.164",
       "server_port": 443,
       "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
@@ -43,96 +43,22 @@
     },
     {
       "type": "vless",
-      "tag": "vless-1167244965",
-      "server": "c302b802-tla000-u10a65-1os43.hk3.hyhuawei.com",
+      "tag": "vless-765514213",
+      "server": "162.128.157.164",
       "server_port": 443,
-      "uuid": "96c798f6-4645-11ee-b8a1-f23c9164ca5d",
+      "uuid": "5e8e81ac-a1c4-4543-b81e-651bf9872b54",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "updates.cdn-apple.com",
+        "server_name": "www.bing.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1186755718",
-      "server": "6342844e-tla000-tlpfci-1jdha.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "de629d50-1711-11ed-bd7c-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1156078273",
-      "server": "5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1109076537",
-      "server": "0deecae9-tl4g00-tls5or-6gn6.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "c12f73f6-e8c7-11ed-9246-f23c9164ca5d",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1177479458",
-      "server": "5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+          "public_key": "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0",
+          "short_id": "14156e3ac23212cc"
         }
       }
     },

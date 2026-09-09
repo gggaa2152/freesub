@@ -3,30 +3,12 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🏳️ ShatakVPN 492675
-  network: ws
-  port: 443
-  server: 94.183.209.58
-  type: vless
-  udp: true
-  uuid: 78791f9e-fe09-4d4f-88ec-895764bae0d6
-  ws-opts:
-    headers:
-      Host: pl2.lckdwn.ru
-    path: /
-- cipher: aes-256-cfb
-  name: shadowsocks-812343744
-  password: S2zDyyPcmZN2h8EC
-  port: 9076
-  server: 217.30.10.44
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: vless-1151222974
+  name: 🏳️ ShatakVPN 590936
   port: 443
-  server: 50.7.248.234
-  servername: viper-22.moriarty-web.com
+  server: 144.31.5.64
+  servername: pl6.moritech.net
   tls: true
   type: vless
   udp: true
@@ -34,9 +16,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🏳️ ShatakVPN 492675
-  - shadowsocks-812343744
-  - vless-1151222974
+  - 🏳️ ShatakVPN 590936
   type: select
 rules:
 - MATCH,PROXY

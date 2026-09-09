@@ -3,6 +3,13 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
+- cipher: aes-256-gcm
+  name: 🇨🇦 Canada
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: vless-258647517
@@ -16,39 +23,61 @@ proxies:
   type: vless
   udp: true
   uuid: d9e4721d-cdac-44c7-bc91-117367eac194
-- cipher: aes-128-gcm
-  name: '[openproxylist.com] CA 3255188'
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
-  udp: true
 - client-fingerprint: firefox
-  name: vless-1095635779
-  port: 2053
+  flow: xtls-rprx-vision
+  name: vless-24252274
+  port: 41373
   reality-opts:
-    public-key: wA5Vklw2gN0kMwC7JEmudiPbsKyTeSfbZNvpLiDUBEU
-    short-id: bb437dca4f03116e
-  server: 66.70.179.198
-  servername: www.apple.com
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
   tls: true
   type: vless
   udp: true
-  uuid: d165fa7e-fa7a-414f-8c75-15f18bce5105
-- cipher: aes-256-gcm
-  name: 🇨🇦 Canada
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 51.79.85.185
-  type: ss
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- name: hysteria2-1030361951
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 15.223.183.81
+  skip-cert-verify: true
+  sni: 15.223.183.81
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-46267
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
   udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 514775
+  port: 443
+  reality-opts:
+    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
+    short-id: f98843107912e782
+  server: 209.200.246.148
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-258647517
-  - '[openproxylist.com] CA 3255188'
-  - vless-1095635779
   - 🇨🇦 Canada
+  - vless-258647517
+  - vless-24252274
+  - hysteria2-1030361951
+  - vless-46267
+  - 🏳️ ShatakVPN 514775
   type: select
 rules:
 - MATCH,PROXY

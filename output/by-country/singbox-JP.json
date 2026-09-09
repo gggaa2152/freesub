@@ -3,52 +3,39 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1163227155",
-      "server": "13.231.19.51",
-      "server_port": 11690,
-      "uuid": "e2b8b217-cffb-4d66-9b8b-eca6e4334032",
+      "tag": "🏳️ ShatakVPN 365191",
+      "server": "3.112.131.211",
+      "server_port": 48086,
+      "uuid": "620ca966-d78b-4c88-a5c9-acf13c7d252f",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg",
-          "short_id": "034885e346fd30"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1015689230",
-      "server": "3.112.131.211",
-      "server_port": 48086,
-      "uuid": "620ca966-d78b-4c88-a5c9-acf13c7d252f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
           "public_key": "qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo",
           "short_id": "7083d685446ce576"
         }
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 Tokyo  13  Japan",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
       "type": "vless",
-      "tag": "vless-1048866277",
-      "server": "13.114.124.85",
-      "server_port": 18614,
-      "uuid": "926912d3-1656-4e83-9971-411b283f7998",
+      "tag": "vless-1023674380",
+      "server": "13.230.66.70",
+      "server_port": 23607,
+      "uuid": "babf64f8-f9ee-4564-a097-16433f2ebd46",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -59,56 +46,35 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "w0jjW_RLHvQc2tk_7sbxfBawdMlJZfb7rKROwg051gA",
-          "short_id": "c6966bed91ecd9"
+          "public_key": "liATkHCbR_IPjdgOhHK5nZO6fgCO091bTab3v2G8Lm4",
+          "short_id": "701b0c5c9dee514d"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-1044739431",
-      "server": "13.231.7.104",
-      "server_port": 24620,
-      "uuid": "b969ef8f-7bdb-474f-9481-d8f3c5686fb8",
+      "tag": "vless-1051696558",
+      "server": "43.207.162.145",
+      "server_port": 32913,
+      "uuid": "15836880-212b-4690-b29c-1889a749bf72",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "eZthMfn0kQJFNr_srk502fr8yUHMoHQ7Oh3v4_HfTBI",
-          "short_id": "db2cb3b3c2dbb711"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1051520045",
-      "server": "3.112.131.211",
-      "server_port": 48086,
-      "uuid": "620ca966-d78b-4c88-a5c9-acf13c7d252f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qq9vUmReS92PojPLpSyUY_c6CydUUtut7ffxc3V0LTo",
-          "short_id": "7083d685446ce576"
+          "public_key": "iJhoNzfiPiua04PL88iAAyZz2u39su4ChSCiGVoekRQ",
+          "short_id": "a8f0a95931a52732"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-1024134863",
+      "tag": "vless-1141982328",
       "server": "18.183.215.124",
       "server_port": 28573,
       "uuid": "871bfce7-8440-4394-8d82-56b51f20fdad",
@@ -129,84 +95,9 @@
     },
     {
       "type": "vless",
-      "tag": "vless-987610015",
-      "server": "154.31.114.248",
-      "server_port": 50159,
-      "uuid": "d56624b2-35bb-468c-9b2a-e0b0df7230c1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA",
-          "short_id": "091e1c5db8451757"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "日本 #1",
-      "server": "138.3.208.26",
-      "server_port": 50160,
-      "password": "184cdec28da5a09450803c8debcd2cc9",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1020076601",
-      "server": "54.249.200.131",
-      "server_port": 18921,
-      "uuid": "fe113f0b-43fa-4662-9403-9f91b53fed1f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Ct9tvt4V8JSZ7uCbKWKuXNMG5Q7U_FMDWPHgi4YHAXw",
-          "short_id": "2e23c31063fcff"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1010679998",
-      "server": "43.207.162.145",
-      "server_port": 32913,
-      "uuid": "15836880-212b-4690-b29c-1889a749bf72",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "iJhoNzfiPiua04PL88iAAyZz2u39su4ChSCiGVoekRQ",
-          "short_id": "a8f0a95931a52732"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-656230592",
+      "tag": "vless-335170842",
       "server": "3.114.220.22",
-      "server_port": 18007,
+      "server_port": 19645,
       "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -221,6 +112,39 @@
           "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
           "short_id": "48050fab"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 471655",
+      "server": "52.199.9.165",
+      "server_port": 15147,
+      "uuid": "60bf43f0-dc41-42ac-8e2b-e64b73688ed2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1qBD5uOyQZ4Pj7UMgw9Fuyo7oZ8ruACjWOTwSl4sbA4",
+          "short_id": "91a8f64c584660c5"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-652726858",
+      "server": "freedom.chenlan.top",
+      "server_port": 12765,
+      "password": "STYyftThFn",
+      "tls": {
+        "enabled": true,
+        "server_name": "freedom.chenlan.top",
+        "insecure": false
       }
     },
     {

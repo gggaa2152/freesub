@@ -3,31 +3,51 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 491465",
-      "server": "78.129.149.85",
+      "tag": "vless-1088313896",
+      "server": "95.154.196.62",
       "server_port": 443,
-      "uuid": "c7ecedb5-fac9-44db-b643-931516768261",
+      "uuid": "c9779fd1-a7fc-48b5-88b0-42e8396c2dd8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "foodnetwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
+          "public_key": "wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA",
+          "short_id": "16498ac98306ce31"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 328713",
+      "tag": "vless-1175310392",
+      "server": "51.89.194.151",
+      "server_port": 2053,
+      "uuid": "a8444f42-8aa2-4ef2-8755-2b0d82415fc6",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo",
+          "short_id": "949023ece91caa7c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 729766",
       "server": "78.129.150.216",
       "server_port": 443,
-      "uuid": "8f3c3002-1acc-4800-a51f-b7f904fa66f0",
+      "uuid": "c2d8ab90-e33e-4eca-8467-c987dc5f4374",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -45,31 +65,10 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 508415",
-      "server": "109.169.85.137",
+      "tag": "🏳️ ShatakVPN 662566",
+      "server": "78.129.150.216",
       "server_port": 443,
-      "uuid": "524d59ce-b820-48db-8f75-06d9376831e7",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "slashdot.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 254014",
-      "server": "82.145.55.75",
-      "server_port": 443,
-      "uuid": "78692911-efc2-43d2-b522-c61f4bfeb71b",
+      "uuid": "ab821ee7-48b1-453a-9be3-1b0e6a6f7583",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -82,48 +81,6 @@
           "enabled": true,
           "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
           "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 610454",
-      "server": "78.129.149.85",
-      "server_port": 443,
-      "uuid": "18743390-4f1e-4f09-a177-476d65af977a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "foodnetwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
-          "short_id": "fd55b698ee8c3629"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 445858",
-      "server": "95.154.221.153",
-      "server_port": 443,
-      "uuid": "b41084bb-e613-42f9-8062-51cc9c55f1e8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "strapi.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI",
-          "short_id": "42171a632f3b99ed"
         }
       }
     },

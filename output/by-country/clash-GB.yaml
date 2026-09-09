@@ -3,22 +3,34 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: random
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 491465
+  name: vless-1088313896
   port: 443
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 78.129.149.85
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: 16498ac98306ce31
+  server: 95.154.196.62
   servername: foodnetwork.com
   tls: true
   type: vless
   udp: true
-  uuid: c7ecedb5-fac9-44db-b643-931516768261
+  uuid: c9779fd1-a7fc-48b5-88b0-42e8396c2dd8
+- client-fingerprint: chrome
+  name: vless-1175310392
+  port: 2053
+  reality-opts:
+    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
+    short-id: 949023ece91caa7c
+  server: 51.89.194.151
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 328713
+  name: 🏳️ ShatakVPN 729766
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
@@ -28,68 +40,27 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 8f3c3002-1acc-4800-a51f-b7f904fa66f0
+  uuid: c2d8ab90-e33e-4eca-8467-c987dc5f4374
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 508415
+  name: 🏳️ ShatakVPN 662566
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
     short-id: fd55b698ee8c3629
-  server: 109.169.85.137
-  servername: slashdot.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 524d59ce-b820-48db-8f75-06d9376831e7
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 254014
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 82.145.55.75
+  server: 78.129.150.216
   servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: 78692911-efc2-43d2-b522-c61f4bfeb71b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 610454
-  port: 443
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: fd55b698ee8c3629
-  server: 78.129.149.85
-  servername: foodnetwork.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18743390-4f1e-4f09-a177-476d65af977a
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 445858
-  port: 443
-  reality-opts:
-    public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
-    short-id: 42171a632f3b99ed
-  server: 95.154.221.153
-  servername: strapi.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: b41084bb-e613-42f9-8062-51cc9c55f1e8
+  uuid: ab821ee7-48b1-453a-9be3-1b0e6a6f7583
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🏳️ ShatakVPN 491465
-  - 🏳️ ShatakVPN 328713
-  - 🏳️ ShatakVPN 508415
-  - 🏳️ ShatakVPN 254014
-  - 🏳️ ShatakVPN 610454
-  - 🏳️ ShatakVPN 445858
+  - vless-1088313896
+  - vless-1175310392
+  - 🏳️ ShatakVPN 729766
+  - 🏳️ ShatakVPN 662566
   type: select
 rules:
 - MATCH,PROXY

@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 193377",
-      "server": "43.217.16.8",
-      "server_port": 21874,
-      "uuid": "85dd8227-0f12-4826-a712-6313211774b5",
+      "tag": "🏳️ ShatakVPN 369681",
+      "server": "149.33.19.143",
+      "server_port": 443,
+      "uuid": "732d967a-b82c-48e8-9de9-a133d8148b3d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "zvukipro.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs",
-          "short_id": "42e853a5559e1032"
+          "public_key": "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY",
+          "short_id": "fd55b698ee8c3629"
         }
       }
     },
