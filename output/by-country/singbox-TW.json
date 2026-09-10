@@ -2,20 +2,8 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "hysteria2-137781265",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "vless-1215229403",
+      "tag": "vless-1031183842",
       "server": "35.201.163.218",
       "server_port": 30837,
       "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4",
@@ -25,7 +13,7 @@
         "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -35,8 +23,20 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "hysteria2-468892443",
+      "server": "vpn-tw-002.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.tinkoff.ru",
+        "insecure": true
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 861500",
+      "tag": "vless-1033318010",
       "server": "34.80.184.198",
       "server_port": 44848,
       "uuid": "b0342e8a-a25e-4e30-b598-d9391b0df4c9",
@@ -46,7 +46,7 @@
         "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -54,66 +54,6 @@
           "short_id": "2338740580a5de"
         }
       }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1014131049",
-      "server": "34.81.129.171",
-      "server_port": 34376,
-      "uuid": "bf8cc771-51a0-4395-810f-1f135325cfc1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU",
-          "short_id": "8dbafb690450d8a9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1027296951",
-      "server": "34.81.129.171",
-      "server_port": 34376,
-      "uuid": "bf8cc771-51a0-4395-810f-1f135325cfc1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU",
-          "short_id": "8dbafb690450d8a9"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "vmess-650449640",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "vmess-25247",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "direct",

@@ -3,11 +3,11 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "🇿🇦 Isando  GP  South Africa",
-      "server": "139.84.247.164",
+      "tag": "[openproxylist.com] ES 14434904",
+      "server": "140.174.184.5",
       "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "tfAcRikawhNoZAhu"
+      "password": "qItG8SueYQcP"
     },
     {
       "type": "direct",

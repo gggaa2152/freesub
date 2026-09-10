@@ -3,41 +3,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 441641",
-      "server": "65.109.185.234",
-      "server_port": 8080,
+      "tag": "vless-1219577444",
+      "server": "italic.dearhossein-taktaz.ir",
+      "server_port": 2087,
       "uuid": "83fd52e3-c8d4-4ba6-abf4-445b99fec0f0",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "italic.dearhossein-taktaz.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[openproxylist.com] FI 15624201",
-      "server": "194.34.175.218",
-      "server_port": 443,
-      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "localhost",
+        "server_name": "italic.dearhossein-taktaz.ir",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {
       "type": "vless",
-      "tag": "vless-1211402633",
+      "tag": "🔒 VL-GRPC-TLS 🇫🇮 FI-65.109.185.234 2087",
       "server": "65.109.185.234",
       "server_port": 2087,
       "uuid": "83fd52e3-c8d4-4ba6-abf4-445b99fec0f0",
@@ -56,8 +41,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-1204754936",
-      "server": "italic.dearhossein-taktaz.ir",
+      "tag": "🔒 VL-GRPC-TLS 🇫🇮 FI-65.109.185.234 2087_1",
+      "server": "65.109.185.234",
       "server_port": 2087,
       "uuid": "83fd52e3-c8d4-4ba6-abf4-445b99fec0f0",
       "tls": {

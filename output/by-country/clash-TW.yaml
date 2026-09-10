@@ -3,16 +3,9 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: hysteria2-137781265
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1215229403
+  name: vless-1031183842
   port: 30837
   reality-opts:
     public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
@@ -23,9 +16,16 @@ proxies:
   type: vless
   udp: true
   uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
-- client-fingerprint: firefox
+- name: hysteria2-468892443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  type: hysteria2
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 861500
+  name: vless-1033318010
   port: 44848
   reality-opts:
     public-key: w9vWLOHjl46krA8IEpGoPI9scTL0rFdjCtjdukJDciU
@@ -36,58 +36,12 @@ proxies:
   type: vless
   udp: true
   uuid: b0342e8a-a25e-4e30-b598-d9391b0df4c9
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: vless-1014131049
-  port: 34376
-  reality-opts:
-    public-key: Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU
-    short-id: 8dbafb690450d8a9
-  server: 34.81.129.171
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf8cc771-51a0-4395-810f-1f135325cfc1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: vless-1027296951
-  port: 34376
-  reality-opts:
-    public-key: Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU
-    short-id: 8dbafb690450d8a9
-  server: 34.81.129.171
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf8cc771-51a0-4395-810f-1f135325cfc1
-- alterId: 0
-  cipher: auto
-  name: vmess-650449640
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: vmess-25247
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 proxy-groups:
 - name: PROXY
   proxies:
-  - hysteria2-137781265
-  - vless-1215229403
-  - 🏳️ ShatakVPN 861500
-  - vless-1014131049
-  - vless-1027296951
-  - vmess-650449640
-  - vmess-25247
+  - vless-1031183842
+  - hysteria2-468892443
+  - vless-1033318010
   type: select
 rules:
 - MATCH,PROXY

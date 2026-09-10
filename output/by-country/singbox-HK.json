@@ -2,34 +2,21 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "hysteria2-296929603",
-      "server": "202.146.222.29",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "202.146.222.29",
-        "insecure": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "vless-1232696178",
-      "server": "45.144.137.129",
-      "server_port": 41923,
-      "uuid": "b28936a7-c11a-4147-8806-b66efd1658a8",
-      "flow": "xtls-rprx-vision",
+      "tag": "vless-1229811686",
+      "server": "0cd6e0e6-tlheo0-tphvvu-gacy.hk3.hyhuawei.com",
+      "server_port": 443,
+      "uuid": "20f87b02-0eaa-11eb-8684-f23c913c8d2b",
       "tls": {
         "enabled": true,
-        "server_name": "dash.cloudflare.com",
+        "server_name": "updates.cdn-apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7YfjX8TsT3HL0ZzvovjEDOLCM142j3bFcorv-Gs-m2Y"
+          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
         }
       }
     },

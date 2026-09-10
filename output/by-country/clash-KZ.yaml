@@ -1,0 +1,20 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: hysteria2-1058023684
+  password: aa6f8aaf-d7ff-46f8-a9a0-d143d7e71f71
+  port: 443
+  server: kz03hy01.tcp-reset-club.net
+  skip-cert-verify: false
+  sni: kz03hy01.tcp-reset-club.net
+  type: hysteria2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - hysteria2-1058023684
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

@@ -3,31 +3,48 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 245722",
-      "server": "94.183.209.59",
-      "server_port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
+      "tag": "🏳️ ShatakVPN 315879",
+      "server": "185.223.57.10",
+      "server_port": 33743,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+        }
+      },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {}
+        "type": "grpc",
+        "service_name": "TunService"
       }
     },
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 795037",
-      "server": "144.31.5.64",
+      "tag": "🏳️ ShatakVPN 624393",
+      "server": "94.183.209.58",
       "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl6.moritech.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pl2.lckdwn.ru"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-696781307",
+      "server": "217.30.10.44",
+      "server_port": 9071,
+      "method": "aes-256-cfb",
+      "password": "mENfxTFQpRKKh4As"
     },
     {
       "type": "direct",

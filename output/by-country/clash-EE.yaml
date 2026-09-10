@@ -1,0 +1,31 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: vless-852108509
+  network: ws
+  port: 443
+  server: 94.183.170.135
+  type: vless
+  udp: true
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  ws-opts:
+    headers: {}
+    path: /
+- name: 🏳️ ShatakVPN 232462
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+  port: 443
+  server: 217.60.182.79
+  skip-cert-verify: true
+  sni: cabinet.wwwinternetvideo.click
+  type: hysteria2
+proxy-groups:
+- name: PROXY
+  proxies:
+  - vless-852108509
+  - 🏳️ ShatakVPN 232462
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

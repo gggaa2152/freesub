@@ -3,30 +3,21 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: hysteria2-296929603
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
-  sni: 202.146.222.29
-  type: hysteria2
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1232696178
-  port: 41923
+  name: vless-1229811686
+  port: 443
   reality-opts:
-    public-key: 7YfjX8TsT3HL0ZzvovjEDOLCM142j3bFcorv-Gs-m2Y
-  server: 45.144.137.129
-  servername: dash.cloudflare.com
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: 0cd6e0e6-tlheo0-tphvvu-gacy.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: b28936a7-c11a-4147-8806-b66efd1658a8
+  uuid: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
 proxy-groups:
 - name: PROXY
   proxies:
-  - hysteria2-296929603
-  - vless-1232696178
+  - vless-1229811686
   type: select
 rules:
 - MATCH,PROXY

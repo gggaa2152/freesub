@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-1058023684",
+      "server": "kz03hy01.tcp-reset-club.net",
+      "server_port": 443,
+      "password": "aa6f8aaf-d7ff-46f8-a9a0-d143d7e71f71",
+      "tls": {
+        "enabled": true,
+        "server_name": "kz03hy01.tcp-reset-club.net",
+        "insecure": false
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}
