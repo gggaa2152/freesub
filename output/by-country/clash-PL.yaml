@@ -5,18 +5,51 @@ port: 7890
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 590936
+  name: vless-1201061230
   port: 443
-  server: 144.31.5.64
-  servername: pl6.moritech.net
+  reality-opts:
+    public-key: NjIuu35vz5MthSzqd6kt8PbXbZxCCL2Rb2GbpMCRTEY
+    short-id: 12e3b7681806bc97
+  server: 191.44.113.220
+  servername: eu-central-pl-1.hanvpn.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 253480
+  port: 443
+  server: 144.31.5.3
+  servername: pl4.moritech.net
   tls: true
   type: vless
   udp: true
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 254924
+  port: 443
+  server: 50.7.248.234
+  servername: viper-22.moriarty-web.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- cipher: aes-256-cfb
+  name: shadowsocks-812343744
+  password: S2zDyyPcmZN2h8EC
+  port: 9076
+  server: 217.30.10.44
+  type: ss
+  udp: true
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🏳️ ShatakVPN 590936
+  - vless-1201061230
+  - 🏳️ ShatakVPN 253480
+  - 🏳️ ShatakVPN 254924
+  - shadowsocks-812343744
   type: select
 rules:
 - MATCH,PROXY

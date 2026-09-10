@@ -3,7 +3,26 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 852469",
+      "tag": "vless-1204109587",
+      "server": "italic.dearhossein-taktaz.ir",
+      "server_port": 2087,
+      "uuid": "83fd52e3-c8d4-4ba6-abf4-445b99fec0f0",
+      "tls": {
+        "enabled": true,
+        "server_name": "italic.dearhossein-taktaz.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 313940",
       "server": "194.34.175.98",
       "server_port": 443,
       "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",

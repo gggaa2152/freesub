@@ -3,17 +3,38 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 374666",
+      "tag": "🏳️ ShatakVPN 888337",
+      "server": "151.242.168.155",
+      "server_port": 443,
+      "uuid": "43ca296b-321f-4b61-a12c-ddf8370b9761",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "kibi-institut.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mWzXDVWUhjGcuizZHA-rEnRpxv2wgeSZUIuHmQdteiA",
+          "short_id": "f576da5e05a1d4d2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1187523182",
       "server": "151.242.168.125",
       "server_port": 390,
-      "uuid": "b02ff150-ee30-46e0-9ea1-adbfd7762a06",
+      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "bowandbead.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,

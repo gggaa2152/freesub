@@ -3,10 +3,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 369681",
-      "server": "149.33.19.143",
+      "tag": "🏳️ ShatakVPN 905819",
+      "server": "38.180.186.202",
       "server_port": 443,
-      "uuid": "732d967a-b82c-48e8-9de9-a133d8148b3d",
+      "uuid": "bf5a02f8-945f-4431-ba62-d949275b5aa3",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,

@@ -3,47 +3,39 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: hysteria2-1098338334
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+- name: hysteria2-1045025806
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
-  server: 162.249.126.6
+  server: 205.237.109.174
   skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
+  sni: hopp-netherland-new.dynuddns.net
+  type: hysteria2
+- name: hysteria2-1027662794
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.177
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🆔ar14n24b 🔒 VL-TCP- ❔ XX down
+  name: 🏳️ ShatakVPN 132598
   port: 443
   reality-opts:
-    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
-    short-id: d06d78e974491b6e
-  server: 46.28.67.55
-  servername: www.cloudflare.com
+    public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
+    short-id: 5ee019e02e6ed99a
+  server: 193.163.203.253
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
-- name: hysteria2-896855666
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.162
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  type: hysteria2
-- name: 🏳️ ShatakVPN 157500
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.162
-  skip-cert-verify: true
-  sni: hopp-netherland-new.dynuddns.net
-  type: hysteria2
+  uuid: 441afe11-a180-4516-bb80-80a8a6b38705
 proxy-groups:
 - name: PROXY
   proxies:
-  - hysteria2-1098338334
-  - 🆔ar14n24b 🔒 VL-TCP- ❔ XX down
-  - hysteria2-896855666
-  - 🏳️ ShatakVPN 157500
+  - hysteria2-1045025806
+  - hysteria2-1027662794
+  - 🏳️ ShatakVPN 132598
   type: select
 rules:
 - MATCH,PROXY

@@ -3,9 +3,30 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1220607163",
-      "server": "kr2-r.link-t7.com",
-      "server_port": 10047,
+      "tag": "vless-468901438",
+      "server": "3.39.4.109",
+      "server_port": 18967,
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1220607166",
+      "server": "kr1-r.link-t7.com",
+      "server_port": 10046,
       "uuid": "D2436339-0F26-479A-8064-4D91C2B93652",
       "tls": {
         "enabled": true,
@@ -27,24 +48,24 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 896587",
-      "server": "129.154.192.50",
-      "server_port": 2053,
-      "uuid": "48e84fcc-ecb1-48a3-a596-88fea84887f5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ibm.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oBYxqt4GNTWrmvHRHM_6SAVj_yy95lXtQ0NLd1QWQDU",
-          "short_id": "dea6d68a3f6f96e3"
-        }
+      "tag": "vless-1062311646",
+      "server": "130.94.29.111",
+      "server_port": 2087,
+      "uuid": "84da6391-1539-4583-a3d9-d6efd796b4d6",
+      "transport": {
+        "type": "ws",
+        "path": "/e17586a75123",
+        "headers": {}
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-959706048",
+      "server": "140.238.2.250",
+      "server_port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "direct",

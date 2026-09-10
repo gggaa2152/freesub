@@ -3,11 +3,11 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "shadowsocks-246",
-      "server": "102.133.165.160",
-      "server_port": 16233,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+      "tag": "shadowsocks-1223448949",
+      "server": "108.129.176.139",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "type": "direct",

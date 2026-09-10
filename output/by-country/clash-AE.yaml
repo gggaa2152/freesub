@@ -3,30 +3,30 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: firefox
+- name: 🏳️ ShatakVPN 783629
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.181
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  type: hysteria2
+- client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: freegrpc
-  name: vless-1115899893
+  name: vless-1157879756
   network: grpc
   port: 2087
-  server: srv-21bac9.vless.monster
+  server: 31.56.189.27
   servername: srv-21bac9.vless.monster
   tls: true
   type: vless
   udp: true
   uuid: df9f5aca-eda0-428f-a752-e53866153d12
-- name: 📀57@oneclickvpnkeys
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.178
-  skip-cert-verify: true
-  sni: hopp-romania-new.roxa.org
-  type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1115899893
-  - 📀57@oneclickvpnkeys
+  - 🏳️ ShatakVPN 783629
+  - vless-1157879756
   type: select
 rules:
 - MATCH,PROXY

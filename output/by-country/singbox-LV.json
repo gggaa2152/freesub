@@ -2,38 +2,34 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 975543",
-      "server": "138.124.180.137",
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 316508",
+      "server": "85.159.228.22",
       "server_port": 443,
-      "uuid": "5234b2b7-5e07-422c-8159-d62a676c00c6",
-      "flow": "xtls-rprx-vision",
+      "password": "GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c",
-          "short_id": "33acba1b"
-        }
+        "server_name": "hy2-latvia2.unlimited-access.ru",
+        "insecure": false
       }
     },
     {
       "type": "vless",
-      "tag": "🇱🇻 ShatakVPN 458209",
+      "tag": "🏳️ ShatakVPN 174368",
       "server": "89.36.161.222",
-      "server_port": 2096,
+      "server_port": 2083,
       "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "laoye.in-gect.fun"
+      "tls": {
+        "enabled": true,
+        "server_name": "laoye.in-gect.fun",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {

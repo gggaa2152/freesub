@@ -3,8 +3,19 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: firefox
-  name: vless-1219569900
+- client-fingerprint: qq
+  name: vless-1191331909
+  port: 443
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+- client-fingerprint: chrome
+  name: 🏳️ ShatakVPN 493395
   port: 443
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
@@ -13,11 +24,12 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1219569900
+  - vless-1191331909
+  - 🏳️ ShatakVPN 493395
   type: select
 rules:
 - MATCH,PROXY

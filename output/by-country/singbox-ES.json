@@ -2,16 +2,8 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] ES 14317086",
-      "server": "108.181.121.226",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
-    },
-    {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 611805",
+      "tag": "🏳️ ShatakVPN 729986",
       "server": "185.254.205.79",
       "server_port": 19842,
       "uuid": "43c23116-1115-4af4-a0f0-56f02841a605",

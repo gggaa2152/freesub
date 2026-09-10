@@ -5,7 +5,33 @@ port: 7890
 proxies:
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: vless-1088313896
+  name: vless-1223729863
+  port: 421
+  reality-opts:
+    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
+    short-id: a1facbc8575701ae
+  server: 78.129.208.44
+  servername: chistomat.dry.care
+  tls: true
+  type: vless
+  udp: true
+  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 486977
+  port: 443
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: fd55b698ee8c3629
+  server: 5.152.223.193
+  servername: strapi.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e6b8db1-da80-494f-bad7-7a0451f801a1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 755288
   port: 443
   reality-opts:
     public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
@@ -15,52 +41,70 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: c9779fd1-a7fc-48b5-88b0-42e8396c2dd8
+  uuid: a40ec4fc-e08b-4324-9f97-ab8ca5e99fc4
 - client-fingerprint: chrome
-  name: vless-1175310392
-  port: 2053
+  flow: xtls-rprx-vision
+  name: 🏳️ ShatakVPN 615932
+  port: 443
   reality-opts:
-    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
-    short-id: 949023ece91caa7c
-  server: 51.89.194.151
-  servername: www.cloudflare.com
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 18e4d2d21241
+  server: 107.181.151.241
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
+  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 729766
+  name: 🏳️ ShatakVPN 540818
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
     short-id: fd55b698ee8c3629
-  server: 78.129.150.216
+  server: 82.145.55.75
   servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: c2d8ab90-e33e-4eca-8467-c987dc5f4374
+  uuid: 58ca7c2e-dfd7-4414-984d-58a1084e2424
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 662566
+  name: 🏳️ ShatakVPN 990320
   port: 443
   reality-opts:
     public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
     short-id: fd55b698ee8c3629
-  server: 78.129.150.216
+  server: 5.152.223.192
   servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: ab821ee7-48b1-453a-9be3-1b0e6a6f7583
+  uuid: 37945ca1-8a62-4f09-acb4-88ab78076e77
+- client-fingerprint: chrome
+  name: 🆔surfboardv2ray 🔒 VL-WS-N/A ❔ XX 137ms
+  network: ws
+  port: 443
+  server: 129.121.95.159
+  servername: 129.121.95.159
+  tls: true
+  type: vless
+  udp: true
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  ws-opts:
+    headers:
+      Host: 129.121.95.159
+    path: /connect
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1088313896
-  - vless-1175310392
-  - 🏳️ ShatakVPN 729766
-  - 🏳️ ShatakVPN 662566
+  - vless-1223729863
+  - 🏳️ ShatakVPN 486977
+  - 🏳️ ShatakVPN 755288
+  - 🏳️ ShatakVPN 615932
+  - 🏳️ ShatakVPN 540818
+  - 🏳️ ShatakVPN 990320
+  - 🆔surfboardv2ray 🔒 VL-WS-N/A ❔ XX 137ms
   type: select
 rules:
 - MATCH,PROXY

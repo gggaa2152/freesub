@@ -3,19 +3,64 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 590936",
-      "server": "144.31.5.64",
+      "tag": "vless-1201061230",
+      "server": "191.44.113.220",
+      "server_port": 443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "eu-central-pl-1.hanvpn.biz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NjIuu35vz5MthSzqd6kt8PbXbZxCCL2Rb2GbpMCRTEY",
+          "short_id": "12e3b7681806bc97"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 253480",
+      "server": "144.31.5.3",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl6.moritech.net",
+        "server_name": "pl4.moritech.net",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 254924",
+      "server": "50.7.248.234",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "viper-22.moriarty-web.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-812343744",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC"
     },
     {
       "type": "direct",

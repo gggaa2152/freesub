@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "vmess",
+      "tag": "vmess-1138304671",
+      "server": "156.226.183.181",
+      "server_port": 54321,
+      "uuid": "d3bcc1f1-6294-4f68-bcf3-c3bcb2001520",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}
