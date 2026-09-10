@@ -15,23 +15,10 @@ proxies:
   type: vless
   udp: true
   uuid: 83fd52e3-c8d4-4ba6-abf4-445b99fec0f0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 313940
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: 194.34.175.98
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
 proxy-groups:
 - name: PROXY
   proxies:
   - vless-1204109587
-  - 🏳️ ShatakVPN 313940
   type: select
 rules:
 - MATCH,PROXY

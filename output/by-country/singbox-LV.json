@@ -2,20 +2,8 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🏳️ ShatakVPN 316508",
-      "server": "85.159.228.22",
-      "server_port": 443,
-      "password": "GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_",
-      "tls": {
-        "enabled": true,
-        "server_name": "hy2-latvia2.unlimited-access.ru",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 174368",
+      "tag": "🏳️ ShatakVPN 611923",
       "server": "89.36.161.222",
       "server_port": 2083,
       "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",

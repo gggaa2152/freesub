@@ -3,25 +3,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1221773909",
-      "server": "hinet1.2yly.com",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-1191331909",
       "server": "ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com",
       "server_port": 443,
@@ -41,10 +22,10 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 493395",
-      "server": "203.218.231.156",
+      "tag": "vless-1167245006",
+      "server": "a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com",
       "server_port": 443,
-      "uuid": "5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b",
+      "uuid": "526a1128-7487-11ee-9bca-f23c913c8d2b",
       "tls": {
         "enabled": true,
         "server_name": "updates.cdn-apple.com",
@@ -57,14 +38,6 @@
           "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
         }
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇹🇼 New Taipei City  NWT  Taiwan",
-      "server": "R3MRCG001287H3P.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
     },
     {
       "type": "direct",

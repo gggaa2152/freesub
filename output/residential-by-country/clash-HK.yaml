@@ -15,21 +15,21 @@ proxies:
   udp: true
   uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
 - client-fingerprint: chrome
-  name: 🏳️ ShatakVPN 493395
+  name: vless-1167245006
   port: 443
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  server: 203.218.231.156
+  server: a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com
   servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
 proxy-groups:
 - name: PROXY
   proxies:
   - vless-1191331909
-  - 🏳️ ShatakVPN 493395
+  - vless-1167245006
   type: select
 rules:
 - MATCH,PROXY

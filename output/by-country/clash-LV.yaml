@@ -3,17 +3,10 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🏳️ ShatakVPN 316508
-  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
-  port: 443
-  server: 85.159.228.22
-  skip-cert-verify: false
-  sni: hy2-latvia2.unlimited-access.ru
-  type: hysteria2
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-  name: 🏳️ ShatakVPN 174368
+  name: 🏳️ ShatakVPN 611923
   network: grpc
   port: 2083
   server: 89.36.161.222
@@ -25,8 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🏳️ ShatakVPN 316508
-  - 🏳️ ShatakVPN 174368
+  - 🏳️ ShatakVPN 611923
   type: select
 rules:
 - MATCH,PROXY
