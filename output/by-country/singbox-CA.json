@@ -3,26 +3,6 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 620704",
-      "server": "66.70.179.198",
-      "server_port": 2053,
-      "uuid": "d165fa7e-fa7a-414f-8c75-15f18bce5105",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wA5Vklw2gN0kMwC7JEmudiPbsKyTeSfbZNvpLiDUBEU",
-          "short_id": "bb437dca4f03116e"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-721508148",
       "server": "216.152.147.28",
       "server_port": 443,
@@ -43,15 +23,53 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "@V2ray_confiig #1",
-      "server": "15.223.122.197",
+      "type": "shadowsocks",
+      "tag": "shadowsocks-415242973",
+      "server": "15.235.75.71",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "FD3rCuOsxOay"
+    },
+    {
+      "type": "vless",
+      "tag": "vless-734969288",
+      "server": "158.69.112.254",
       "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "uuid": "661f395d-b153-4199-a04b-693f5fe7f261",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
-        "insecure": true
+        "server_name": "www.speedtest.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y",
+          "short_id": "3d3c1e645f763ee3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 671121",
+      "server": "209.200.246.148",
+      "server_port": 443,
+      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
+          "short_id": "f98843107912e782"
+        }
       }
     },
     {

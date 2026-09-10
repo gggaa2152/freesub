@@ -3,21 +3,9 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: freegrpc
-  name: vless-1141368041
-  network: grpc
-  port: 2087
-  server: srv-21bac9.vless.monster
-  servername: srv-21bac9.vless.monster
-  tls: true
-  type: vless
-  udp: true
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🏳️ ShatakVPN 270009
+  name: 🏳️ ShatakVPN 145794
   port: 8443
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
@@ -30,8 +18,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1141368041
-  - 🏳️ ShatakVPN 270009
+  - 🏳️ ShatakVPN 145794
   type: select
 rules:
 - MATCH,PROXY
