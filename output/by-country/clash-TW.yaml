@@ -3,9 +3,9 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: vless-1031183842
+  name: vless-1215229403
   port: 30837
   reality-opts:
     public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
@@ -16,32 +16,48 @@ proxies:
   type: vless
   udp: true
   uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
-- name: hysteria2-468892443
+- name: hysteria2-207301017
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
+- name: hysteria2-200242609
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: vpn-tw-002.fastervpn.world
   type: hysteria2
-- client-fingerprint: qq
+- cipher: chacha20-ietf-poly1305
+  name: '[openproxylist.com] TW 15516947'
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+  udp: true
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: vless-1033318010
-  port: 44848
+  name: vless-1078468671
+  port: 30837
   reality-opts:
-    public-key: w9vWLOHjl46krA8IEpGoPI9scTL0rFdjCtjdukJDciU
-    short-id: 2338740580a5de
-  server: 34.80.184.198
-  servername: www.tesla.com
+    public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
+    short-id: 97101ba788915e5a
+  server: 35.201.163.218
+  servername: www.sony.com
   tls: true
   type: vless
   udp: true
-  uuid: b0342e8a-a25e-4e30-b598-d9391b0df4c9
+  uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1031183842
-  - hysteria2-468892443
-  - vless-1033318010
+  - vless-1215229403
+  - hysteria2-207301017
+  - hysteria2-200242609
+  - '[openproxylist.com] TW 15516947'
+  - vless-1078468671
   type: select
 rules:
 - MATCH,PROXY

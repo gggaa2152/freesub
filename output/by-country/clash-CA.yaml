@@ -3,23 +3,68 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: 🇨🇦 QC  Canada
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-2331698
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
   udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-293233479
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇦 Canada
-  password: FD3rCuOsxOay
-  port: 8388
-  server: 15.235.75.71
+  password: 3ssumf2
+  port: 443
+  server: ca225.vpnbook.com
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-23853903
+  name: vless-1011511851
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: vless-734969288
+  port: 443
+  reality-opts:
+    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
+    short-id: 3d3c1e645f763ee3
+  server: 158.69.112.254
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-67911628
   port: 443
   reality-opts:
     public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
@@ -32,7 +77,20 @@ proxies:
   uuid: 661f395d-b153-4199-a04b-693f5fe7f261
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-656230710
+  name: vless-692622873
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-206379848
   port: 41373
   reality-opts:
     public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
@@ -44,34 +102,96 @@ proxies:
   udp: true
   uuid: a71c8954-66a8-4321-bedb-2336230d81ce
 - cipher: aes-256-gcm
-  name: shadowsocks-496614106
-  password: zDNVedRFPQexG9v
-  port: 445
-  server: 51.222.12.127
+  name: '[openproxylist.com] CA 15458433'
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇦CA_2|4.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.182.182.58
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🏳️ ShatakVPN 818928
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-258647517
+  name: vless-1230974273
   port: 443
   reality-opts:
-    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
-    short-id: b9f8d3f8
-  server: 216.152.147.28
-  servername: www.cloudflare.com
+    public-key: feWlxnxySxB9B9HiuC4NwoTe_6slRqaW-EULPN0yxjY
+    short-id: af7e79b5
+  server: 66.70.179.124
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
+  uuid: c8f9e08d-7d07-4059-9f71-0b014b9e0ec7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-202736775
+  port: 443
+  reality-opts:
+    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
+    short-id: 3d3c1e645f763ee3
+  server: 158.69.112.254
+  servername: www.speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1109241417
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-46267
+  port: 41373
+  reality-opts:
+    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+    short-id: 0e
+  server: 130.107.73.148
+  servername: google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇨🇦 QC  Canada
+  - vless-2331698
+  - vless-293233479
   - 🇨🇦 Canada
-  - vless-23853903
-  - vless-656230710
-  - shadowsocks-496614106
-  - vless-258647517
+  - vless-1011511851
+  - vless-734969288
+  - vless-67911628
+  - vless-692622873
+  - vless-206379848
+  - '[openproxylist.com] CA 15458433'
+  - 🇨🇦CA_2|4.3MB/s
+  - 🏳️ ShatakVPN 818928
+  - vless-1230974273
+  - vless-202736775
+  - vless-1109241417
+  - vless-46267
   type: select
 rules:
 - MATCH,PROXY

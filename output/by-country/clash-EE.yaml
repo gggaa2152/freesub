@@ -3,28 +3,23 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: vless-852108509
-  network: ws
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: vless-255434893
   port: 443
-  server: 94.183.170.135
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  server: 95.85.224.51
+  servername: max.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  ws-opts:
-    headers: {}
-    path: /
-- name: 🏳️ ShatakVPN 232462
-  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  port: 443
-  server: 217.60.182.79
-  skip-cert-verify: true
-  sni: cabinet.wwwinternetvideo.click
-  type: hysteria2
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-852108509
-  - 🏳️ ShatakVPN 232462
+  - vless-255434893
   type: select
 rules:
 - MATCH,PROXY

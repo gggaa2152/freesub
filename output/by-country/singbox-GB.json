@@ -2,55 +2,60 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "英国",
-      "server": "vpn-uk-001.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-uk-001.fastervpn.world",
-        "insecure": true
-      }
+      "type": "vmess",
+      "tag": "🆔surfboardv2ray 🔓 VM-TCP-N/A ❔ XX 125ms",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "vless",
-      "tag": "vless-1157522828",
-      "server": "51.89.194.151",
-      "server_port": 2053,
-      "uuid": "a8444f42-8aa2-4ef2-8755-2b0d82415fc6",
+      "tag": "vless-856679272",
+      "server": "138.124.125.211",
+      "server_port": 443,
+      "uuid": "1996007c-e7bc-464b-999b-cac28cec6c3e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo",
-          "short_id": "949023ece91caa7c"
+          "public_key": "RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo",
+          "short_id": "72cceb78"
         }
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-165",
+      "server": "146.70.61.37",
+      "server_port": 8080,
+      "method": "rc4-md5",
+      "password": "14fFPrbezE3HDZzsMOr6"
+    },
+    {
       "type": "vless",
-      "tag": "vless-1058385597",
-      "server": "3.9.135.156",
-      "server_port": 51847,
-      "uuid": "391a01e9-b664-407b-9158-610fab3f5920",
-      "flow": "xtls-rprx-vision",
+      "tag": "vless-1079172715",
+      "server": "46.250.240.80",
+      "server_port": 2053,
+      "uuid": "7dc2737e-1155-42f6-aec4-6b2b001001ae",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-          "short_id": "0eec442e7b34d2f2"
+          "public_key": "AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg",
+          "short_id": "b895d279c8cc40f9"
         }
       }
     },

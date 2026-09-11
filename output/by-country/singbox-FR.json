@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 France",
+      "server": "51.255.13.232",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "BqnqToih0PbU"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇫🇷 Paris  IDF  France",
+      "server": "83.171.225.55",
+      "server_port": 1443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZjAxZ"
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1163130678",
+      "server": "45.144.28.39",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ ShatakVPN 523858",
+      "server": "45.144.28.39",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "usejh2.neobo-tooth.ru"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}

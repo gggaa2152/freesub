@@ -4,16 +4,16 @@ mode: rule
 port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇿🇦 Isando  GP  South Africa
-  password: tfAcRikawhNoZAhu
-  port: 8388
-  server: 139.84.247.164
+  name: '[openproxylist.com] ZA 13333993'
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
   type: ss
   udp: true
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇿🇦 Isando  GP  South Africa
+  - '[openproxylist.com] ZA 13333993'
   type: select
 rules:
 - MATCH,PROXY

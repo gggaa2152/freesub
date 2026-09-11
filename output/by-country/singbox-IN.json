@@ -3,20 +3,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1229811686",
-      "server": "0cd6e0e6-tlheo0-tphvvu-gacy.hk3.hyhuawei.com",
-      "server_port": 443,
-      "uuid": "20f87b02-0eaa-11eb-8684-f23c913c8d2b",
+      "tag": "vless-1157522840",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "50ddfd92-dc79-4777-a256-41e34d56836e",
       "tls": {
         "enabled": true,
-        "server_name": "updates.cdn-apple.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+          "public_key": "R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw",
+          "short_id": "c0cb7457deebbc70"
         }
       }
     },

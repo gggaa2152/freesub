@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 | CHE",
-      "server": "45.90.59.15",
+      "tag": "🆔v2ray1_ng 🔒 VL-TCP- ❔ XX 121ms",
+      "server": "131.123.34.42",
       "server_port": 443,
-      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "sheetpeek.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-          "short_id": "19253fae84102271"
+          "public_key": "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo",
+          "short_id": "84be686ea1d16478"
         }
       }
     },

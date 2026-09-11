@@ -3,17 +3,17 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: hysteria2-1058023684
-  password: aa6f8aaf-d7ff-46f8-a9a0-d143d7e71f71
+- name: hysteria2-1219899542
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
-  server: kz03hy01.tcp-reset-club.net
+  server: 46.247.41.120
   skip-cert-verify: false
   sni: kz03hy01.tcp-reset-club.net
   type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
-  - hysteria2-1058023684
+  - hysteria2-1219899542
   type: select
 rules:
 - MATCH,PROXY

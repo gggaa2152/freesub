@@ -3,38 +3,46 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 英国
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-uk-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-uk-001.fastervpn.world
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🆔surfboardv2ray 🔓 VM-TCP-N/A ❔ XX 125ms
+  port: 22324
+  server: 66.163.117.58
+  type: vmess
+  udp: true
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - client-fingerprint: random
-  name: vless-1157522828
+  flow: xtls-rprx-vision
+  name: vless-856679272
+  port: 443
+  reality-opts:
+    public-key: RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo
+    short-id: 72cceb78
+  server: 138.124.125.211
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1996007c-e7bc-464b-999b-cac28cec6c3e
+- cipher: rc4-md5
+  name: shadowsocks-165
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  name: vless-1079172715
   port: 2053
   reality-opts:
-    public-key: T10K4VspJ7ZIptzXTqFL0k-lgV2a8ekf7RedogymJzo
-    short-id: 949023ece91caa7c
-  server: 51.89.194.151
+    public-key: AttEUIEavqeVE5oz4_AxJPrcwx3IgcFElW2OoF8qTAg
+    short-id: b895d279c8cc40f9
+  server: 46.250.240.80
   servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: a8444f42-8aa2-4ef2-8755-2b0d82415fc6
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1058385597
-  port: 51847
-  reality-opts:
-    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
-    short-id: 0eec442e7b34d2f2
-  server: 3.9.135.156
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 391a01e9-b664-407b-9158-610fab3f5920
+  uuid: 7dc2737e-1155-42f6-aec4-6b2b001001ae
 - cipher: aes-256-gcm
   name: 🇬🇧 City of London  ENG  United Kingdom
   password: RexnBgU7EV5ADxG
@@ -45,9 +53,10 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - 英国
-  - vless-1157522828
-  - vless-1058385597
+  - 🆔surfboardv2ray 🔓 VM-TCP-N/A ❔ XX 125ms
+  - vless-856679272
+  - shadowsocks-165
+  - vless-1079172715
   - 🇬🇧 City of London  ENG  United Kingdom
   type: select
 rules:

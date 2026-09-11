@@ -3,21 +3,35 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1229811686",
-      "server": "0cd6e0e6-tlheo0-tphvvu-gacy.hk3.hyhuawei.com",
+      "tag": "vless-1198924884",
+      "server": "212.192.13.233",
       "server_port": 443,
-      "uuid": "20f87b02-0eaa-11eb-8684-f23c913c8d2b",
+      "uuid": "d742752c-4231-4695-801e-f06d77f0f277",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "updates.cdn-apple.com",
+        "server_name": "www.cathaypacific.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+          "public_key": "O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s",
+          "short_id": "1bc2c1ef1c"
         }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-663905691",
+      "server": "202.146.222.89",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "202.146.222.89",
+        "insecure": true
       }
     },
     {
