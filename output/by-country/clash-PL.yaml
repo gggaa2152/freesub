@@ -5,56 +5,18 @@ port: 7890
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🔒 VL-TCP-TLS 🇵🇱 PL-144.31.2.33 443
+  name: 🔒 VL-TCP-TLS 🇵🇱 PL-144.31.5.64 443
   port: 443
-  server: 144.31.2.33
-  servername: pl3.moritech.net
+  server: 144.31.5.64
+  servername: pl6.moritech.net
   tls: true
   type: vless
   udp: true
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- name: 🏳️ ShatakVPN 101348
-  network: ws
-  port: 443
-  server: 94.183.209.59
-  type: vless
-  udp: true
-  uuid: d23cb516-40db-4aa4-8142-6b45ff882f90
-  ws-opts:
-    headers: {}
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[openproxylist.com] PL 15640885'
-  port: 443
-  reality-opts:
-    public-key: NjIuu35vz5MthSzqd6kt8PbXbZxCCL2Rb2GbpMCRTEY
-    short-id: 12e3b7681806bc97
-  server: eu-central-pl-1.hanvpn.biz
-  servername: eu-central-pl-1.hanvpn.biz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🆔ar14n24b 🔒 VL-TCP- ❔ XX 130ms
-  port: 47005
-  reality-opts:
-    public-key: -P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo
-  server: 45.144.50.231
-  servername: akamai.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0764541b-3e57-4b47-954b-51e996fae5fc
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🔒 VL-TCP-TLS 🇵🇱 PL-144.31.2.33 443
-  - 🏳️ ShatakVPN 101348
-  - '[openproxylist.com] PL 15640885'
-  - 🆔ar14n24b 🔒 VL-TCP- ❔ XX 130ms
+  - 🔒 VL-TCP-TLS 🇵🇱 PL-144.31.5.64 443
   type: select
 rules:
 - MATCH,PROXY

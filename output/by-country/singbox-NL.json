@@ -3,15 +3,51 @@
   "outbounds": [
     {
       "type": "shadowsocks",
+      "tag": "🇳🇱 Amsterdam  NH  The Netherlands",
+      "server": "switcher-nick-croquet.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "wwzVn2ZnHfqYa6l8EWh3eY"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇳🇱 The Netherlands",
-      "server": "193.29.139.223",
+      "server": "82.38.31.36",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-1227273038",
+      "server": "72.56.102.31",
+      "server_port": 443,
+      "password": "BWAFlp8g53",
+      "tls": {
+        "enabled": true,
+        "server_name": "hys28.wba-pn.ru",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 Amsterdam  NH  The Netherlands_1",
+      "server": "switcher-nick-croquet.freesocks.work",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9tqhMdIrTkgQ46PvhyAtMH"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 The Netherlands_1",
+      "server": "82.38.31.213",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-1005782635",
+      "tag": "🏳️ ShatakVPN 478110",
       "server": "46.229.243.147",
       "server_port": 8443,
       "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
@@ -22,17 +58,85 @@
       }
     },
     {
+      "type": "hysteria2",
+      "tag": "hysteria2-781397524",
+      "server": "46.229.243.136",
+      "server_port": 8443,
+      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "tls": {
+        "enabled": true,
+        "server_name": "grape-turbo-fr.roxa.org",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
-      "tag": "🇳🇱 The Netherlands_1",
-      "server": "82.38.31.49",
+      "tag": "🇳🇱 The Netherlands_2",
+      "server": "82.38.31.13",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
+      "type": "shadowsocks",
+      "tag": "[openproxylist.com] NL 14522724",
+      "server": "82.38.31.179",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[openproxylist.com] NL 12811423",
+      "server": "82.38.31.35",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-961086808",
+      "server": "hys13.wba-pn.ru",
+      "server_port": 443,
+      "password": "CnVfXXvMzh",
+      "tls": {
+        "enabled": true,
+        "server_name": "hys13.wba-pn.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "[openproxylist.com] NL 11436618",
+      "server": "82.38.31.199",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 787240",
+      "server": "72.56.116.57",
+      "server_port": 443,
+      "password": "wrSuBorIlf",
+      "tls": {
+        "enabled": true,
+        "server_name": "72.56.116.57",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-114874950",
+      "server": "193.29.139.132",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+    },
+    {
       "type": "vless",
-      "tag": "🏳️ ShatakVPN 713636",
-      "server": "51.158.206.26",
+      "tag": "🏳️ ShatakVPN 662812",
+      "server": "51.158.206.25",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -51,199 +155,80 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "hysteria2-1066924735",
-      "server": "72.56.92.120",
-      "server_port": 443,
-      "password": "CnVfXXvMzh",
-      "tls": {
-        "enabled": true,
-        "server_name": "off",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 The Netherlands_2",
-      "server": "82.38.31.175",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🏳️ ShatakVPN 675796",
-      "server": "72.56.116.57",
-      "server_port": 443,
-      "password": "wrSuBorIlf",
-      "tls": {
-        "enabled": true,
-        "server_name": "hys9.wba-pn.ru",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇳🇱 The Netherlands_3",
-      "server": "82.38.31.9",
+      "server": "193.29.139.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 731285",
+      "server": "46.229.243.138",
+      "server_port": 8443,
+      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "tls": {
+        "enabled": true,
+        "server_name": "grape-turbo-fr.roxa.org",
+        "insecure": false
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-186",
+      "server": "193.29.139.204",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] NL 10731906",
-      "server": "92.112.126.90",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "wwzVn2ZnHfqYa6l8EWh3eY"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 The Netherlands_4",
-      "server": "82.38.31.42",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 270654",
-      "server": "151.242.2.81",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf9.rumedia-cdn.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/v3/live",
-        "headers": {
-          "Host": "cf9.rumedia-cdn.com"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 Amsterdam  NH  The Netherlands",
-      "server": "switcher-nick-croquet.freesocks.work",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "9tqhMdIrTkgQ46PvhyAtMH"
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 836230",
-      "server": "163.172.214.188",
-      "server_port": 80,
-      "uuid": "40cc9b52-25b8-4cd5-8b45-715ae26e6baf",
-      "transport": {
-        "type": "ws",
-        "path": "/vless/",
-        "headers": {
-          "Host": "SC-TheNetherlands1.09vpn.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[openproxylist.com] NL 14164007",
-      "server": "147.45.145.127",
-      "server_port": 443,
-      "uuid": "534cbbe2-cc36-4f2d-8fb0-90410e7148c9",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc",
-          "short_id": "52a6"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 Amsterdam  NH  The Netherlands_1",
-      "server": "140.82.56.38",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "iOaIXNsQXVIxwmkY"
     },
     {
       "type": "shadowsocks",
       "tag": "🇳🇱 The Netherlands_5",
-      "server": "82.38.31.175",
+      "server": "82.38.31.28",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-91981760",
+      "server": "82.38.31.174",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "type": "vless",
-      "tag": "vless-144481",
-      "server": "cdn.netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-          "short_id": "c84f"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "shadowsocks-175",
-      "server": "82.38.31.208",
+      "tag": "🇳🇱 The Netherlands_7",
+      "server": "82.38.31.205",
       "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
-      "type": "vless",
-      "tag": "🔒 VL-WS-TLS 🇳🇱 NL-151.242.2.81 443",
-      "server": "151.242.2.81",
-      "server_port": 443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf9.rumedia-cdn.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cdn/v3/live",
-        "headers": {
-          "Host": "cf9.rumedia-cdn.com"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🏳️ ShatakVPN 771710",
+      "server": "82.38.31.186",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "shadowsocks",
-      "tag": "🏳️ ShatakVPN 747166",
-      "server": "92.112.126.90",
-      "server_port": 443,
+      "tag": "🇳🇱 The Netherlands_8",
+      "server": "82.38.31.47",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "wwzVn2ZnHfqYa6l8EWh3eY"
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 The Netherlands_9",
+      "server": "82.38.31.211",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ"
     },
     {
       "type": "direct",

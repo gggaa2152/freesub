@@ -3,10 +3,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-1215229403",
-      "server": "35.201.163.218",
-      "server_port": 30837,
-      "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4",
+      "tag": "vless-1014131049",
+      "server": "34.81.129.171",
+      "server_port": 34376,
+      "uuid": "bf8cc771-51a0-4395-810f-1f135325cfc1",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -17,46 +17,14 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo",
-          "short_id": "97101ba788915e5a"
+          "public_key": "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU",
+          "short_id": "8dbafb690450d8a9"
         }
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "hysteria2-207301017",
-      "server": "160.187.100.109",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "hysteria2-200242609",
-      "server": "vpn-tw-002.fastervpn.world",
-      "server_port": 443,
-      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn-tw-002.fastervpn.world",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "[openproxylist.com] TW 15516947",
-      "server": "r3mrcg001287h3p.cybervena.com",
-      "server_port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    },
-    {
       "type": "vless",
-      "tag": "vless-1078468671",
+      "tag": "vless-1071893222",
       "server": "35.201.163.218",
       "server_port": 30837,
       "uuid": "85a6bd94-83a9-4e80-849f-c06d7011d1a4",
@@ -66,12 +34,75 @@
         "server_name": "www.sony.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo",
           "short_id": "97101ba788915e5a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1054459318",
+      "server": "34.81.129.171",
+      "server_port": 34376,
+      "uuid": "bf8cc771-51a0-4395-810f-1f135325cfc1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU",
+          "short_id": "8dbafb690450d8a9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1014145883",
+      "server": "104.199.219.172",
+      "server_port": 40800,
+      "uuid": "5859f6a7-cda1-47c2-8353-fcdee281f31d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo",
+          "short_id": "186e4c2732d61a3d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-1173311753",
+      "server": "104.199.219.172",
+      "server_port": 40800,
+      "uuid": "5859f6a7-cda1-47c2-8353-fcdee281f31d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo",
+          "short_id": "186e4c2732d61a3d"
         }
       }
     },

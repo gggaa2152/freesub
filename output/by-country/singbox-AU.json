@@ -15,8 +15,8 @@
     },
     {
       "type": "vmess",
-      "tag": "vmess-1052102379",
-      "server": "ww11.levikogjgfdd.ir",
+      "tag": "vmess-468166886",
+      "server": "134.195.196.211",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
@@ -24,8 +24,8 @@
     },
     {
       "type": "vmess",
-      "tag": "vmess-1060904497",
-      "server": "ww11.levikogjgfdd.ir",
+      "tag": "vmess-475021672",
+      "server": "149.88.23.207",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",

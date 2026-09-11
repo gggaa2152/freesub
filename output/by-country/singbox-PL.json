@@ -3,70 +3,17 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🔒 VL-TCP-TLS 🇵🇱 PL-144.31.2.33 443",
-      "server": "144.31.2.33",
+      "tag": "🔒 VL-TCP-TLS 🇵🇱 PL-144.31.5.64 443",
+      "server": "144.31.5.64",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl3.moritech.net",
+        "server_name": "pl6.moritech.net",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 101348",
-      "server": "94.183.209.59",
-      "server_port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "[openproxylist.com] PL 15640885",
-      "server": "eu-central-pl-1.hanvpn.biz",
-      "server_port": 443,
-      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eu-central-pl-1.hanvpn.biz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NjIuu35vz5MthSzqd6kt8PbXbZxCCL2Rb2GbpMCRTEY",
-          "short_id": "12e3b7681806bc97"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🆔ar14n24b 🔒 VL-TCP- ❔ XX 130ms",
-      "server": "45.144.50.231",
-      "server_port": 47005,
-      "uuid": "0764541b-3e57-4b47-954b-51e996fae5fc",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "akamai.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
         }
       }
     },

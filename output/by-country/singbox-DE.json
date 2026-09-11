@@ -2,44 +2,16 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vmess",
-      "tag": "[openproxylist.com]  15500779",
-      "server": "185.232.204.222",
-      "server_port": 443,
-      "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 755813",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
       "tls": {
         "enabled": true,
-        "server_name": "renderer-stream-2-62.mirra.now"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/gpu-stream/socket",
-        "headers": {
-          "Host": "renderer-stream-2-62.mirra.now"
-        }
+        "server_name": "130.61.50.75",
+        "insecure": true
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 737507",
-      "server": "163.8.195.241",
-      "server_port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "transport": {
-        "type": "ws",
-        "path": "/29c8fed7ca22",
-        "headers": {}
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks-209",
-      "server": "209.46.102.22",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1hhrqrokj3ag"
     },
     {
       "type": "direct",

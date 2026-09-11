@@ -5,41 +5,20 @@ port: 7890
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: vless-1215229403
-  port: 30837
+  name: vless-1014131049
+  port: 34376
   reality-opts:
-    public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
-    short-id: 97101ba788915e5a
-  server: 35.201.163.218
+    public-key: Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU
+    short-id: 8dbafb690450d8a9
+  server: 34.81.129.171
   servername: www.sony.com
   tls: true
   type: vless
   udp: true
-  uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
-- name: hysteria2-207301017
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 160.187.100.109
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-- name: hysteria2-200242609
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: '[openproxylist.com] TW 15516947'
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- client-fingerprint: edge
+  uuid: bf8cc771-51a0-4395-810f-1f135325cfc1
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1078468671
+  name: vless-1071893222
   port: 30837
   reality-opts:
     public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
@@ -50,14 +29,53 @@ proxies:
   type: vless
   udp: true
   uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1054459318
+  port: 34376
+  reality-opts:
+    public-key: Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU
+    short-id: 8dbafb690450d8a9
+  server: 34.81.129.171
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf8cc771-51a0-4395-810f-1f135325cfc1
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1014145883
+  port: 40800
+  reality-opts:
+    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
+    short-id: 186e4c2732d61a3d
+  server: 104.199.219.172
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-1173311753
+  port: 40800
+  reality-opts:
+    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
+    short-id: 186e4c2732d61a3d
+  server: 104.199.219.172
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1215229403
-  - hysteria2-207301017
-  - hysteria2-200242609
-  - '[openproxylist.com] TW 15516947'
-  - vless-1078468671
+  - vless-1014131049
+  - vless-1071893222
+  - vless-1054459318
+  - vless-1014145883
+  - vless-1173311753
   type: select
 rules:
 - MATCH,PROXY

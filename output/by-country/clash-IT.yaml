@@ -3,21 +3,8 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1221516009
-  port: 32833
-  reality-opts:
-    public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
-    short-id: a0a305ccc8e94aa8
-  server: 172.238.232.239
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
 - cipher: aes-256-gcm
-  name: shadowsocks-891518478
+  name: '[openproxylist.com] IT 15499634'
   password: itzvpn@321
   port: 8388
   server: 57.131.48.45
@@ -26,8 +13,7 @@ proxies:
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1221516009
-  - shadowsocks-891518478
+  - '[openproxylist.com] IT 15499634'
   type: select
 rules:
 - MATCH,PROXY
