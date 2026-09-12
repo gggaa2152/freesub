@@ -2,24 +2,27 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "俄罗斯",
-      "server": "gta.internet-card.sbs",
-      "server_port": 443,
-      "password": "mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj",
+      "type": "vless",
+      "tag": "🆔v2ray1_ng 🔒 VL-GRPC- ❔ XX 24ms",
+      "server": "147.78.182.3",
+      "server_port": 8443,
+      "uuid": "8bf3e040-8ac9-5d0e-304f-9b735e145de8",
       "tls": {
         "enabled": true,
-        "server_name": "gta.internet-card.sbs",
-        "insecure": true
+        "server_name": "dl.kaspersky.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Nnpwm8dqFl9dlMJmg0M9G11vmgCKzNagFTn4tH4sWy4"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "shadowsocks-1256735543",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs="
     },
     {
       "type": "direct",

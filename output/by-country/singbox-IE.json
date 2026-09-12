@@ -3,13 +3,14 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "[openproxylist.com] NL 15569201",
-      "server": "neth9.lunariai.ru",
-      "server_port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "tag": "🇮🇪 爱尔兰 | IRL",
+      "server": "ir-new1.failspace.top",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "neth9.lunariai.ru",
+        "server_name": "ir-new1.failspace.top",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"

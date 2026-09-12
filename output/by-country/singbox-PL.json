@@ -2,15 +2,105 @@
   "version": 1,
   "outbounds": [
     {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-743178447",
+      "server": "217.30.10.44",
+      "server_port": 9062,
+      "method": "aes-256-cfb",
+      "password": "tkhHVxxfM2QErBWe"
+    },
+    {
       "type": "vless",
-      "tag": "🔒 VL-TCP-TLS 🇵🇱 PL-144.31.2.33 443",
-      "server": "144.31.2.33",
+      "tag": "vless-1126122351",
+      "server": "185.223.57.16",
+      "server_port": 33743,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[openproxylist.com] PL 15589158",
+      "server": "185.223.57.10",
+      "server_port": 33743,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "TunService"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "[openproxylist.com] PL 15457074",
+      "server": "94.183.209.59",
+      "server_port": 443,
+      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-812343744",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "aes-256-cfb",
+      "password": "S2zDyyPcmZN2h8EC"
+    },
+    {
+      "type": "vless",
+      "tag": "🔒 VL-TCP-TLS 🇵🇱 PL-144.31.5.3 443",
+      "server": "144.31.5.3",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl3.moritech.net",
+        "server_name": "pl4.moritech.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 | POL",
+      "server": "poland-viper.moritech.net",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "poland-viper.moritech.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"

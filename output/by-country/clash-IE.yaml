@@ -4,17 +4,18 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: chrome
-  name: '[openproxylist.com] NL 15569201'
-  port: 8443
-  server: neth9.lunariai.ru
+  flow: xtls-rprx-vision
+  name: 🇮🇪 爱尔兰 | IRL
+  port: 443
+  server: ir-new1.failspace.top
   tls: true
   type: vless
   udp: true
-  uuid: 9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
 proxy-groups:
 - name: PROXY
   proxies:
-  - '[openproxylist.com] NL 15569201'
+  - 🇮🇪 爱尔兰 | IRL
   type: select
 rules:
 - MATCH,PROXY

@@ -3,22 +3,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇩🇪 德国 | DEU",
-      "server": "fin.pinkmoon.pro",
-      "server_port": 443,
-      "uuid": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
+      "tag": "vless-1237786033",
+      "server": "56.69.159.191",
+      "server_port": 53271,
+      "uuid": "e8358eb5-7210-4cf8-982f-68af141b7694",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fin.pinkmoon.pro",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
-          "short_id": "8ffa160e608bf539"
+          "public_key": "1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc",
+          "short_id": "0a9bd9db19578964"
         }
       }
     },
