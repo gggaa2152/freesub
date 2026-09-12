@@ -4,21 +4,19 @@ mode: rule
 port: 7890
 proxies:
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: vless-1108730484
-  port: 28364
+  name: vless-1245374733
+  port: 24215
   reality-opts:
-    public-key: NPhCET0GkjSZuKg4vWsPHLvjYGHW9w99Ucxvavu0-1I
-    short-id: 7241c359c2dfab
-  server: 104.199.134.231
-  servername: www.sony.com
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  server: 118.167.209.5
+  servername: addons.mozilla.org
   tls: true
   type: vless
   udp: true
-  uuid: 3a62a0c2-ba80-43a9-b757-9aca88b0552e
-- client-fingerprint: firefox
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: vless-1215229403
+  name: vless-1031183842
   port: 30837
   reality-opts:
     public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
@@ -29,48 +27,27 @@ proxies:
   type: vless
   udp: true
   uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1107791211
-  port: 40800
-  reality-opts:
-    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
-    short-id: 186e4c2732d61a3d
-  server: 104.199.219.172
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
-- alterId: 0
-  cipher: auto
-  name: vmess-197954839
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  udp: true
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: vless-1028233067
-  port: 40800
-  reality-opts:
-    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
-    short-id: 186e4c2732d61a3d
-  server: 104.199.219.172
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+- name: hysteria2-667703181
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 103.115.109.49
+  skip-cert-verify: true
+  sni: https://t.me/wangcai2
+  type: hysteria2
+- name: hysteria2-1163840992
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
 proxy-groups:
 - name: PROXY
   proxies:
-  - vless-1108730484
-  - vless-1215229403
-  - vless-1107791211
-  - vmess-197954839
-  - vless-1028233067
+  - vless-1245374733
+  - vless-1031183842
+  - hysteria2-667703181
+  - hysteria2-1163840992
   type: select
 rules:
 - MATCH,PROXY

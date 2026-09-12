@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🔒 VL-WS-TLS 🏴‍☠️ NA-104.18.80.149 443",
+      "server": "104.18.80.149",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-4017ea8bea78",
+      "tls": {
+        "enabled": true,
+        "server_name": "zeus-panel-mvtum1.mahdiharchegani.workers.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/stream/PANEL_ZEUS/4017ea8bea78/loc-4",
+        "headers": {
+          "Host": "zeus-panel-mvtum1.mahdiharchegani.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    }
+  ]
+}

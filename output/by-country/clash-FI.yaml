@@ -1,0 +1,21 @@
+allow-lan: false
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🏳️ ShatakVPN 788845
+  port: 2086
+  server: 65.109.189.128
+  type: vmess
+  udp: true
+  uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b
+proxy-groups:
+- name: PROXY
+  proxies:
+  - 🏳️ ShatakVPN 788845
+  type: select
+rules:
+- MATCH,PROXY
+socks-port: 7891

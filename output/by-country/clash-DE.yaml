@@ -3,59 +3,7 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[openproxylist.com]  15500779'
-  network: ws
-  port: 443
-  server: renderer-stream-2-62.mirra.now
-  servername: renderer-stream-2-62.mirra.now
-  tls: true
-  type: vmess
-  udp: true
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-    path: /api/v1/gpu-stream/socket
-- cipher: aes-256-gcm
-  name: shadowsocks-276
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-  udp: true
-- name: vless-1064122887
-  network: ws
-  port: 2087
-  server: 82.24.203.20
-  type: vless
-  udp: true
-  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
-  ws-opts:
-    headers: {}
-    path: /fd5ba98a3970
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-1234843028
-  port: 4777
-  reality-opts:
-    public-key: 8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo
-    short-id: 01115788253bc845
-  server: www.g.mobilesari.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 010bf7ad-b6ec-482b-8392-ae038f466a0a
-- name: hysteria2-730511437
-  password: V1UQuwa-4PRIDW2paxrPe58RcxXHPGyFIGS-5QojaM8
-  port: 443
-  server: player.wwwinternetvideo.click
-  skip-cert-verify: false
-  sni: player.wwwinternetvideo.click
-  type: hysteria2
-- name: vless-1062176086
+- name: 🏳️ ShatakVPN 760085
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -65,29 +13,21 @@ proxies:
   ws-opts:
     headers: {}
     path: /29c8fed7ca22
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: vless-1201950575
-  port: 4777
-  reality-opts:
-    public-key: 8ZL2JgDP9gHkgGTbGF-uK8omfWkFplZnCH0N2_U18Uo
-    short-id: 01115788253bc845
-  server: 207.241.172.98
-  servername: amp-api-edge.apps.apple.com
-  tls: true
+- name: '[openproxylist.com] DE 15567062'
+  network: ws
+  port: 2087
+  server: 82.24.203.20
   type: vless
   udp: true
-  uuid: 3d168677-10a1-43c1-90f3-18eaac90baff
+  uuid: 5fcdc9b7-e70f-4a5c-85c3-e018ad818326
+  ws-opts:
+    headers: {}
+    path: /fd5ba98a3970
 proxy-groups:
 - name: PROXY
   proxies:
-  - '[openproxylist.com]  15500779'
-  - shadowsocks-276
-  - vless-1064122887
-  - vless-1234843028
-  - hysteria2-730511437
-  - vless-1062176086
-  - vless-1201950575
+  - 🏳️ ShatakVPN 760085
+  - '[openproxylist.com] DE 15567062'
   type: select
 rules:
 - MATCH,PROXY
