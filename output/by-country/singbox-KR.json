@@ -3,11 +3,11 @@
   "outbounds": [
     {
       "type": "shadowsocks",
-      "tag": "shadowsocks-817206649",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "aes-256-cfb",
-      "password": "1234!@#$"
+      "tag": "🇰🇷 Seoul  11  South Korea_1",
+      "server": "141.164.45.187",
+      "server_port": 8000,
+      "method": "aes-256-gcm",
+      "password": "KixLvKzwjekG00rm"
     },
     {
       "type": "direct",

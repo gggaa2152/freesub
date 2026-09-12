@@ -3,17 +3,17 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- cipher: aes-256-cfb
-  name: shadowsocks-817206649
-  password: 1234!@#$
-  port: 1774
-  server: 49.254.204.133
+- cipher: aes-256-gcm
+  name: 🇰🇷 Seoul  11  South Korea_1
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 141.164.45.187
   type: ss
   udp: true
 proxy-groups:
 - name: PROXY
   proxies:
-  - shadowsocks-817206649
+  - 🇰🇷 Seoul  11  South Korea_1
   type: select
 rules:
 - MATCH,PROXY

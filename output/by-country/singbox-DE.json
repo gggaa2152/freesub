@@ -2,27 +2,58 @@
   "version": 1,
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🏳️ ShatakVPN 760085",
-      "server": "163.8.195.241",
-      "server_port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "transport": {
-        "type": "ws",
-        "path": "/29c8fed7ca22",
-        "headers": {}
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 376531",
+      "server": "144.31.148.87",
+      "server_port": 443,
+      "password": "2691cbe7c20cced8b0aeb12c812d09077e5b3eec7669fb8f",
+      "tls": {
+        "enabled": true,
+        "server_name": "replay.wwwinternetvideo.click",
+        "insecure": true
       }
     },
     {
-      "type": "vless",
-      "tag": "[openproxylist.com] DE 15567062",
-      "server": "82.24.203.20",
-      "server_port": 2087,
-      "uuid": "5fcdc9b7-e70f-4a5c-85c3-e018ad818326",
-      "transport": {
-        "type": "ws",
-        "path": "/fd5ba98a3970",
-        "headers": {}
+      "type": "shadowsocks",
+      "tag": "🏳️ ShatakVPN 483856",
+      "server": "51.195.126.38",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2YdE4lFOid5a"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-1230577884",
+      "server": "de-node.rumedia-cdn.com",
+      "server_port": 25443,
+      "password": "29ffde49-e1d6-4dcd-a135-352920f9f0b8",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf6.rumedia-cdn.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "trojan-1265960278",
+      "server": "arianet.on1a.com",
+      "server_port": 65535,
+      "password": "o1917llwd2gqcowc",
+      "tls": {
+        "enabled": true,
+        "server_name": "arianet.on1a.com"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🏳️ ShatakVPN 296460",
+      "server": "130.61.50.75",
+      "server_port": 6443,
+      "password": "zhangyang",
+      "tls": {
+        "enabled": true,
+        "server_name": "130.61.50.75",
+        "insecure": true
       }
     },
     {

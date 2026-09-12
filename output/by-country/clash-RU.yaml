@@ -3,30 +3,25 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🔥89@oneclickvpnkeys
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+- name: 俄罗斯
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: msk.frkn.org
-  skip-cert-verify: false
-  sni: msk.frkn.org
+  server: gta.internet-card.sbs
+  skip-cert-verify: true
+  sni: gta.internet-card.sbs
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🏳️ ShatakVPN 340622
-  port: 26424
-  reality-opts:
-    public-key: l8AubqcxQO-HRFJy4pZL1vbLOo-eXit69s-XulSELE0
-    short-id: 23103e1e
-  server: 45.12.75.242
-  servername: ya.ru
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-1256735543
+  password: jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs=
+  port: 43558
+  server: 130.49.189.158
+  type: ss
   udp: true
-  uuid: 633f424e-2b11-48da-a6b3-a849dd71456f
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🔥89@oneclickvpnkeys
-  - 🏳️ ShatakVPN 340622
+  - 俄罗斯
+  - shadowsocks-1256735543
   type: select
 rules:
 - MATCH,PROXY

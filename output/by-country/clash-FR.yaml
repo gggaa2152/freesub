@@ -3,16 +3,25 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 🇫🇷FR_1|4.7MB/s
-  port: 22222
-  server: 15.237.145.224
-  type: vless
+- name: hysteria2-650412204
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-fr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 🏳️ ShatakVPN 306229
+  password: itzvpn@321
+  port: 8388
+  server: 51.83.192.80
+  type: ss
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 proxy-groups:
 - name: PROXY
   proxies:
-  - 🇫🇷FR_1|4.7MB/s
+  - hysteria2-650412204
+  - 🏳️ ShatakVPN 306229
   type: select
 rules:
 - MATCH,PROXY
