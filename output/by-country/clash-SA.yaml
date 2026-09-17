@@ -5,20 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇦 沙特 (Saudi Arabia) 01 - xiaohe
-  server: 81.208.170.142
-  port: 1500
+  server: 64.225.110.247
+  port: 2083
   udp: true
   type: vless
-  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
-  reality-opts:
-    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
-    short-id: 775eb6408888248e
-  servername: www.ebay.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /acg/buy/ajax?ed=2560fp=chrome
+    headers:
+      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
