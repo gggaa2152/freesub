@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "64.83.39.176",
-      "server_port": 443,
+      "server": "206.251.53.91",
+      "server_port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
@@ -16,7 +16,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/seller?ed=2560",
+        "path": "/settings?ed=2560",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
