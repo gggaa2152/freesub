@@ -5,32 +5,36 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: aksai.org
-  port: 443
+  server: 154.197.64.30
+  port: 8880
   udp: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: aksai.org
-  skip-cert-verify: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /
     headers:
-      Host: aksai.org
+      Host: vms.lifetime36.workers.dev
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 216.128.168.190
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: owVdNnQcdPgthSyX
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
 rules:
 - MATCH,PROXIES
